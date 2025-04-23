@@ -1,0 +1,43 @@
+.fileBox {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  width: fit-content;
+  overflow: hidden;
+  margin-bottom: 1rem;
+
+  .fileName {
+    padding: 0.5rem 1rem;
+  }
+
+  .iconButton {
+    display: flex;
+    place-self: stretch;
+    padding: 0 0.2rem;
+
+    .clearIcon {
+      width: 1.6rem;
+      height: 1.6rem;
+      margin: auto;
+      color: var(--main-fg);
+    }
+
+    .downloadIcon {
+      width: 1.6rem;
+      height: 1.2rem;
+      margin: auto;
+      color: var(--main-fg);
+    }
+  }
+
+  .iconButton:hover {
+    background-color: var(--primary);
+    cursor: pointer;
+  }
+}
+
+.utteranceList {
+  margin-bottom: 1rem;
+}

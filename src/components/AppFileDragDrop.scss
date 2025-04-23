@@ -1,0 +1,21 @@
+.appFileDragDrop {
+  .appFileDragDropArea {
+    width: auto;
+    height: auto;
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    background-color: var(--sub-bg);
+    text-align: center;
+    padding: 2rem;
+    transition: background-color var(--color-transition);
+  }
+
+  .appFileDragDropOver {
+    background-color: var(--primary);
+  }
+
+  .appFileDragDropOverNotAccept {
+    cursor: no-drop;
+    background-color: var(--danger);
+  }
+}

@@ -1,0 +1,29 @@
+.table {
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  width: 100%;
+  overflow-wrap: break-word;
+  border-spacing: 0;
+  overflow: hidden;
+
+  th {
+    border-bottom: 0.1rem solid;
+  }
+
+  th,
+  td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+  }
+
+  tbody {
+    tr:hover {
+      background-color: var(--primary-pale);
+      cursor: pointer;
+    }
+
+    .selected {
+      background-color: var(--primary) !important;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.setView {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  .group {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem 0.5rem;
+
+    .noteCharSet {
+      display: flex;
+      flex-flow: column nowrap;
+      border: 0.1rem solid;
+      border-radius: 0.5rem;
+      align-items: stretch;
+      text-align: center;
+
+      .lyric {
+        padding: 0.5rem;
+        border-bottom: 0.1rem solid;
+      }
+
+      .pronunciation {
+        padding: 0.5rem 0.5rem 0;
+      }
+
+      .phoneme {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+.save {
+  box-sizing: border-box;
+  border: 0.1rem solid;
+  border-radius: 1000rem;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.save:hover {
+  background-color: var(--primary);
+  cursor: pointer;
+}

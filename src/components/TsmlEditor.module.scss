@@ -1,0 +1,30 @@
+.tabContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding-inline: 2rem;
+  gap: 1rem;
+
+  .tab {
+    border: 0.1rem solid;
+    border-bottom: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .tab:hover {
+    background-color: var(--primary-pale);
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: var(--primary) !important;
+  }
+}
+
+.editor {
+  border: 0.1rem solid;
+  border-radius: 0.5rem;
+  width: 100%;
+}

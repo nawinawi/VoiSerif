@@ -1,0 +1,17 @@
+:root {
+  --main-bg: #181818;
+  --main-fg: #ddd;
+  --sub-bg: #333;
+  --sub-fg: #bbb;
+  --primary: #c60;
+  --primary-pale: #840;
+  --secondary: #a80;
+  --danger: #a44;
+
+  --font: "BIZ UDPGothic", sans-serif;
+  --main-font-size: 1rem;
+
+  font-family: var(--font);
+  background: var(--main-bg);
+  color: var(--main-fg);
+}

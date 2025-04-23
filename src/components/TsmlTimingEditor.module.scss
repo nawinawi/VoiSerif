@@ -1,0 +1,66 @@
+.root {
+  border-radius: inherit;
+  overflow: hidden;
+
+  .menuRoot {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.1rem solid;
+    gap: 0.8rem;
+
+    .menu {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 3rem;
+
+      .menuForm {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        column-gap: 1rem;
+      }
+
+      .input {
+        border: 0.1rem solid;
+        border-radius: 0.5rem;
+        background-color: transparent;
+        color: var(--main-fg);
+        outline: none;
+        font-family: var(--font);
+        font-size: var(--font-main-size);
+        padding: 0.2rem 0.5rem;
+        max-width: 4rem;
+        text-align: right;
+      }
+
+      .timeSignature {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        column-gap: 0.5rem;
+      }
+
+      .select {
+        border: 0.1rem solid;
+        border-radius: 0.5rem;
+        background-color: transparent;
+        color: var(--main-fg);
+        outline: none;
+        font-family: var(--font);
+        font-size: var(--font-main-size);
+        min-width: 3.5rem;
+        text-align: center;
+
+        .option {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .noteRole {
+    height: 6rem;
+  }
+}

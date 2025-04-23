@@ -1,0 +1,33 @@
+dist
+.wrangler
+.output
+.vercel
+.netlify
+.vinxi
+app.config.timestamp_*.js
+
+# Environment
+.env
+.env*.local
+
+# dependencies
+/node_modules
+/.pnpm-store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+/.devcontainer
+
+# Temp
+gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Other
+/note

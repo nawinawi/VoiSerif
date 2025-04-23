@@ -1,0 +1,46 @@
+.groups {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0 1rem;
+  border-radius: inherit;
+  overflow-x: auto;
+  scrollbar-color: var(--primary) transparent;
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary);
+  }
+
+  .words {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0 1rem;
+    height: 5rem;
+    padding: 0.3rem 1rem;
+
+    .charBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primary);
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      align-self: end;
+    }
+
+    .h {
+      align-self: start;
+    }
+
+    .charBox:hover {
+      background-color: var(--primary-pale);
+    }
+  }
+}
