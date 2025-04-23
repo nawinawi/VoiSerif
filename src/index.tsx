@@ -1,8 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
 
-import { Route, Router } from "@solidjs/router";
-import EditorPage from "./pages/Editor";
 import FitterPage from "./pages/Fitter";
 
 const root = document.getElementById("root");
@@ -14,12 +12,7 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 }
 
 const Root = () => {
-  return (
-    <Router>
-      <Route path="/" component={FitterPage} />
-      <Route path="/editor" component={EditorPage} />
-    </Router>
-  );
+  return <FitterPage />;
 };
 
 render(() => <Root />, root!);
