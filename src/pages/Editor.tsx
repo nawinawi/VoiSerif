@@ -1,5 +1,3 @@
-import "./Editor.scss";
-
 import { Component, createEffect, createSignal, Show } from "solid-js";
 import { AppFileDragDrop } from "../components/AppFileDragDrop";
 import { DownloadIcon, XIcon } from "../components/Icons";

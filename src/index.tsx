@@ -3,6 +3,8 @@ import { render } from "solid-js/web";
 
 import FitterPage from "./pages/Fitter";
 
+import "./index.scss";
+
 const root = document.getElementById("root");
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
