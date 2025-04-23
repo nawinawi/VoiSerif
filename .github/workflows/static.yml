@@ -40,8 +40,8 @@ jobs:
           pnpm build
       - name: Move files
         run: |
-          ls -la ./dist/public
-          cp -R ./dist/public/* ./docs/
+          ls -la ./dist
+          cp -R ./dist/* ./docs/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
