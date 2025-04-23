@@ -41,6 +41,7 @@ jobs:
       - name: Move files
         run: |
           ls -la ./dist
+          mkdir docs
           cp -R ./dist/* ./docs/
       - name: Setup Pages
         uses: actions/configure-pages@v5
