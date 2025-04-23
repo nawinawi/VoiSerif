@@ -168,7 +168,10 @@ export const TimingFitter = (props: TimingFitterProps) => {
           const pronunciations: string[] = [];
           [...word.getAttributesByKeyPath("pronunciation")[0].value].forEach(
             (s) => {
-              if (s !== "’" || pronunciations.length === 0)
+              if (
+                pronunciations.length === 0 ||
+                !/^[’ァィゥェォャュョ]$/.test(s)
+              )
                 pronunciations.push(s);
               else pronunciations[pronunciations.length - 1] += s;
             }
