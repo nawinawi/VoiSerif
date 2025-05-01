@@ -1,6 +1,7 @@
 # VoiSerif
 
 ※ 自分用です。 使いやすく完成度の高いものをお望みの場合は、別のアプリをお探しください。
+※ 動作確認はほとんどしていません。
 
 ## 概要
 
@@ -38,3 +39,7 @@
 
 ![image](https://github.com/user-attachments/assets/1dc3f376-3eec-45bd-82a0-bb714926fee4)
 ![image](https://github.com/user-attachments/assets/29608aaf-dfe0-478d-a4a9-d80541f12f26)
+
+## その他
+
+動けば良いの精神で書き散らしたので汚コードになっています。 参考になりません。
